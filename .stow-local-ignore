@@ -1,5 +1,17 @@
-.git
+# Contains files and folders not to be symlinked.
+
+# Git specific
+\.git
+\.gitignore
+
+# Several scripts.
 scripts
+
+# Documentation & ADRs.
 docs
+
+# Dump ground for what shouldn't be in other places.
 other
+
+# Terminal themes I've collected.
 terminal_themes
