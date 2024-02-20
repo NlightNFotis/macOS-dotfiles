@@ -7,3 +7,7 @@ source /opt/homebrew/opt/chruby/share/chruby/auto.sh
 chruby ruby-3.2.2
 
 eval "$(starship init zsh)"
+
+# Setup GOPATH correctly
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin  
