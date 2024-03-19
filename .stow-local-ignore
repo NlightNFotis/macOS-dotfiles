@@ -10,6 +10,10 @@ scripts
 # Documentation & ADRs.
 docs
 
+# Homebrew specific.
+Brewfile
+Brewfile.lock.json
+
 # Dump ground for what shouldn't be in other places.
 other
 
