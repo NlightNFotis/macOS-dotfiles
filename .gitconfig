@@ -2,9 +2,27 @@
 	name = Fotis Koutoulakis
 	email = fotis.koutoulakis@gmail.com
 
+[core]
+	pager = delta
+
+[delta]
+	navigate = true 	# use n and N to move between diff sections
+
+[merge]
+	conflictstyle = diff3
+
+# Substitute https:// clone with git:// clone.
+[url "git@github.com:"]
+	insteadOf = "https://github.com/"
+
+[help]
+	autocorrect = prompt
+
 # Diff configuration using semantic diffing with difftastic.
 [diff]
+	algorithm = histogram
 	tool = difftastic
+	colorMoved = default
 
 [difftool]
 	prompt = false
@@ -19,3 +37,9 @@
 	dft = difftool
 	# `git dlog` to show `git log -p` with difftastic.
 	dlog = "!f() { GIT_EXTERNAL_DIFF=difft git log -p --ext-diff $@; }; f"
+
+[includeIf "gitdir:~/Devel/GitHub/"]
+    path = "~/macOS-dotfiles/work/.gitconfig.github"
+
+[includeIf "gitdir:~/Devel/Microsoft/"]
+	path = "~/macOS-dotfiles/work/.gitconfig.msft"
