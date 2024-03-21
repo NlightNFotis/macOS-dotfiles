@@ -1,5 +1,21 @@
-# This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
 	name = Fotis Koutoulakis
 	email = fotis.koutoulakis@gmail.com
+
+# Diff configuration using semantic diffing with difftastic.
+[diff]
+	tool = difftastic
+
+[difftool]
+	prompt = false
+
+[difftool "difftastic"]
+	cmd = difft "$LOCAL" "$REMOTE"
+
+[pager]
+	difftool = true
+
+[alias]
+	dft = difftool
+	# `git dlog` to show `git log -p` with difftastic.
+	dlog = "!f() { GIT_EXTERNAL_DIFF=difft git log -p --ext-diff $@; }; f"
