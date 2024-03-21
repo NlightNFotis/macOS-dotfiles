@@ -14,6 +14,9 @@ docs
 Brewfile
 Brewfile.lock.json
 
+# Justfile (so it's not picked up from parent directory).
+justfile
+
 # Dump ground for what shouldn't be in other places.
 other
 
