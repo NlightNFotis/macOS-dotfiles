@@ -4,12 +4,17 @@ eval "$(starship init zsh)"
 # opam configuration
 [[ ! -r /Users/fotiskoutoulakis/.opam/opam-init/init.zsh ]] || source /Users/fotiskoutoulakis/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
 
-# Ruby config
+# Install Homebrew Ruby path first before autoloading Rubies from chruby.
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+
+# Ruby config (will autoload ruby based on .ruby-version in local directory.)
+# Requirement: Ruby has been installed with ruby-install ruby a ~/.rubies exists
+if [ ! -d $HOME/.rubies ]; then
+  # Make sure at least one (latest) version of ruby is installed in ~/.rubies
+  ruby-install ruby
+fi
 source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
 source /opt/homebrew/opt/chruby/share/chruby/auto.sh
-chruby ruby-3.2.2
-# FOTIS: TODO: Cleanup?
-export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
 # Setup GOPATH correctly and add Go to $PATH.
 export GOPATH=$HOME/go
