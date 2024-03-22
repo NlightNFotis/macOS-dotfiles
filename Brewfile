@@ -79,6 +79,7 @@ cask "font-cascadia-mono-pl"
 # Other
 brew "pandoc"       # Document format transformer
 cask "obsidian"     # Personal wiki
+brew "cloc"         # Count lines of code
 
 # Visual Studio Code && Extensions
 cask "visual-studio-code"
