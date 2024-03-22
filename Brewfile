@@ -49,7 +49,7 @@ brew "openssl@1.1"
 
 # Build systems & utilities
 brew "cmake"
-brew "bazelisk"
+brew "bazelisk"     # Launcher of (wrapper around) Bazel Build System
 brew "automake"
 brew "bison"
 
@@ -57,7 +57,7 @@ brew "bison"
 brew "docker"
 
 # Databases
-brew "gdbm"
+brew "gdbm"         # GNU key-value store
 brew "mysql"
 
 ## Rust utilities
@@ -67,7 +67,7 @@ brew "difftastic"
 
 # Terminal utilities
 brew "starship"
-brew "stow"
+brew "stow"         # Symlink management framework.
 brew "bash-completion"
 
 # Fonts
