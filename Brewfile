@@ -1,53 +1,86 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
-brew "automake"
-brew "libyaml"
-brew "openssl@3"
-brew "readline"
-brew "asdf"
-brew "bash-completion"
-brew "bazelisk"
-brew "bison"
-brew "brotli"
+
+# Languages && Runtimes
 brew "python@3.12"
-brew "chruby"
-brew "openjdk"
 brew "clojure"
-brew "cmake"
+brew "kotlin"
+brew "node"
+brew "rust"
+brew "go"
+brew "ruby"
+brew "typescript"
+brew "openjdk"
 brew "deno"
-brew "difftastic"
-brew "docker"
-brew "gdbm"
-brew "gh"
+cask "temurin17"    # Alternative JVM by Adoptium (Eclipse) targetting Java17
+cask "dotnet-sdk"   # Cask for latest dotnet SDK
+
+# Ruby-specific
+brew "chruby"
+brew "ruby-install"
+
+# Java-specific
+
+# OCaml-specific
+brew "opam"
+
+# Version Managers
+brew "asdf"
+brew "nvm"          # Node Version Manager
+
+# Compression
+brew "brotli"       # Google compression algorithm
+brew "gnu-tar"
+
+# Git && Github
 brew "git"
 brew "git-delta"
 brew "git-lfs"
-brew "gnu-tar"
-brew "go"
+brew "gh"           # GitHub command line tool
+brew "pre-commit"
+
+# Libraries
+brew "libffi"
+brew "libyaml"
+brew "openssl@3"
+brew "readline"
+brew "openssl@1.1"
+
+# Build systems & utilities
+brew "cmake"
+brew "bazelisk"
+brew "automake"
+brew "bison"
+
+# Containers
+brew "docker"
+
+# Databases
+brew "gdbm"
+brew "mysql"
+
+## Rust utilities
 brew "hyperfine"
 brew "just"
-brew "kotlin"
-brew "libffi"
-brew "mysql"
-brew "node"
-brew "nvm"
-brew "opam"
-brew "openssl@1.1"
-brew "pandoc"
-brew "ruby"
-brew "ruby-install"
-brew "rust"
+brew "difftastic"
+
+# Terminal utilities
 brew "starship"
 brew "stow"
-brew "typescript"
-cask "dotnet-sdk"
+brew "bash-completion"
+
+# Fonts
 cask "font-cascadia-code"
 cask "font-cascadia-code-pl"
 cask "font-cascadia-mono"
 cask "font-cascadia-mono-pl"
-cask "obsidian"
-cask "temurin17"
+
+# Other
+brew "pandoc"       # Document format transformer
+cask "obsidian"     # Personal wiki
+
+# Visual Studio Code && Extensions
 cask "visual-studio-code"
 vscode "alefragnani.bookmarks"
 vscode "alexandernanberg.horizon-theme-vscode"
