@@ -15,6 +15,7 @@ brew "openjdk"
 brew "deno"
 cask "temurin17"    # Alternative JVM by Adoptium (Eclipse) targetting Java17
 cask "dotnet-sdk"   # Cask for latest dotnet SDK
+cask "racket"
 
 # Ruby-specific
 brew "chruby"
