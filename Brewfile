@@ -40,6 +40,7 @@ brew "git-delta"
 brew "git-lfs"
 brew "gh"           # GitHub command line tool
 brew "pre-commit"
+brew "act"          # GH Actions local workflow runner - https://github.com/nektos/act
 
 # Libraries
 brew "libffi"
@@ -98,6 +99,7 @@ vscode "evzen-wybitul.magic-racket"
 vscode "felipe-mendes.slack-theme"
 vscode "github.github-vscode-theme"
 vscode "github.vscode-codeql"
+vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
 vscode "golang.go"
 vscode "haskell.haskell"
