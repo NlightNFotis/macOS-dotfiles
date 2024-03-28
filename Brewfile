@@ -55,8 +55,9 @@ brew "bazelisk"     # Launcher of (wrapper around) Bazel Build System
 brew "automake"
 brew "bison"
 
-# Containers
+# Containers & Virtualisation
 brew "docker"
+brew "qemu"
 
 # Databases
 brew "gdbm"         # GNU key-value store
