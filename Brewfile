@@ -65,6 +65,9 @@ brew "vagrant"      # VM Provisioning
 brew "gdbm"         # GNU key-value store
 brew "mysql"
 
+# Networking tools
+brew "nmap"
+
 ## Rust utilities
 brew "hyperfine"
 brew "just"
