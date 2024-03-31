@@ -56,10 +56,11 @@ brew "automake"
 brew "bison"
 
 # Containers, Virtualisation & DevOps utilities
-brew "docker"
-brew "qemu"
+brew "docker"       # Container engine
+brew "qemu"         # Virtualisation & emulation engine
 brew "ansible"      # Configuration management
 brew "vagrant"      # VM Provisioning
+brew "minikube"     # Local Kubernetes cluster
 
 # Databases
 brew "gdbm"         # GNU key-value store
