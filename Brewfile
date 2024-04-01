@@ -61,6 +61,8 @@ brew "qemu"         # Virtualisation & emulation engine
 brew "ansible"      # Configuration management
 brew "vagrant"      # VM Provisioning
 brew "minikube"     # Local Kubernetes cluster
+brew "container-structure-test" # Integrity checks on container images
+brew "skaffold"     # Building & Deploying for Kubernetes
 
 # Databases
 brew "gdbm"         # GNU key-value store
@@ -68,6 +70,7 @@ brew "mysql"
 
 # Networking tools
 brew "nmap"
+brew "telnet"
 
 ## Rust utilities
 brew "hyperfine"
