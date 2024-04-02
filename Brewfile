@@ -59,7 +59,7 @@ brew "bison"
 brew "docker"       # Container engine
 brew "qemu"         # Virtualisation & emulation engine
 brew "ansible"      # Configuration management
-brew "vagrant"      # VM Provisioning
+cask "vagrant"      # VM Provisioning
 brew "minikube"     # Local Kubernetes cluster
 brew "container-structure-test" # Integrity checks on container images
 brew "skaffold"     # Building & Deploying for Kubernetes
