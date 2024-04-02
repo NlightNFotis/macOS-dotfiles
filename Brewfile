@@ -91,6 +91,7 @@ cask "font-cascadia-mono-pl"
 # Other
 brew "pandoc"       # Document format transformer
 cask "obsidian"     # Personal wiki
+cask "logseq"       # Personal wiki
 brew "cloc"         # Count lines of code
 cask "zotero"       # Reference/Bibliography management
 
