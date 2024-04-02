@@ -13,7 +13,7 @@ brew "ruby"
 brew "typescript"
 brew "openjdk"
 brew "deno"
-cask "temurin17"    # Alternative JVM by Adoptium (Eclipse) targetting Java17
+brew "ocaml"
 cask "dotnet-sdk"   # Cask for latest dotnet SDK
 cask "racket"
 
@@ -22,6 +22,7 @@ brew "chruby"
 brew "ruby-install"
 
 # Java-specific
+cask "temurin17"    # Alternative JVM by Adoptium (Eclipse) targetting Java17
 
 # OCaml-specific
 brew "opam"
