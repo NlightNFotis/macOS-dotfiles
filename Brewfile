@@ -21,6 +21,9 @@ cask "racket"
 brew "chruby"
 brew "ruby-install"
 
+# Python-Specific
+brew "yapf"
+
 # Java-specific
 cask "temurin17"    # Alternative JVM by Adoptium (Eclipse) targetting Java17
 
@@ -82,6 +85,7 @@ brew "difftastic"
 brew "starship"
 brew "stow"         # Symlink management framework.
 brew "bash-completion"
+brew "tree"
 
 # Fonts
 cask "font-cascadia-code"
