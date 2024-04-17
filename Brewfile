@@ -26,6 +26,8 @@ brew "yapf"
 
 # Java-specific
 cask "temurin17"    # Alternative JVM by Adoptium (Eclipse) targetting Java17
+brew "maven"
+brew "google-java-format"
 
 # OCaml-specific
 brew "opam"
