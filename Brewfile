@@ -1,18 +1,20 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
+tap "oven-sh/bun" #Official tap for bun
 
 # Languages && Runtimes
 brew "python@3.12"
 brew "clojure"
 brew "kotlin"
 brew "node"
+brew "deno"
+brew "bun"
 brew "rust"
 brew "go"
 brew "ruby"
 brew "typescript"
 brew "openjdk"
-brew "deno"
 brew "ocaml"
 cask "dotnet-sdk"   # Cask for latest dotnet SDK
 cask "racket"
