@@ -18,6 +18,7 @@ brew "openjdk"
 brew "ocaml"
 cask "dotnet-sdk"   # Cask for latest dotnet SDK
 cask "racket"
+cask "r"            # Prefer the cask for R as it contains official binaries
 
 # Ruby-specific
 brew "chruby"
@@ -33,6 +34,9 @@ brew "google-java-format"
 
 # OCaml-specific
 brew "opam"
+
+# R-Specific
+cask "rstudio"
 
 # Version Managers
 brew "asdf"
