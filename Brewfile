@@ -13,6 +13,7 @@ brew "bun"
 brew "rust"
 brew "go"
 brew "ruby"
+brew "scala"
 brew "typescript"
 brew "openjdk"
 brew "ocaml"
@@ -24,7 +25,7 @@ cask "r"            # Prefer the cask for R as it contains official binaries
 brew "chruby"
 brew "ruby-install"
 
-# Python-Specific
+# Python-specific
 brew "yapf"
 
 # Java-specific
@@ -35,8 +36,11 @@ brew "google-java-format"
 # OCaml-specific
 brew "opam"
 
-# R-Specific
+# R-specific
 cask "rstudio"
+
+# Scala-specific
+brew "sbt"
 
 # Version Managers
 brew "asdf"
