@@ -1,0 +1,12 @@
+# File with personal/entertainment dependencies,
+# not synced to work computers.
+
+## Notetaking Software
+cask "notion"       # Personal wiki
+cask "obsidian"     # Personal wiki
+
+## Games and Game Engines
+cask "steam"
+
+
+# TODO: Add GODOT

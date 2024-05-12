@@ -3,6 +3,9 @@
 .ssh/id_ed25519.pub
 .ssh/known_hosts
 .ssh/known_hosts.old
+.ssh/dftd
+.ssh/dftd.pub
 
 # Brewfile lock
 Brewfile.lock.json
+Brewfile.personal.lock.json

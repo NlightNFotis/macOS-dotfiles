@@ -42,6 +42,9 @@ cask "rstudio"
 # Scala-specific
 brew "sbt"
 
+# CodeQL
+cask "codeql"
+
 # Version Managers
 brew "asdf"
 brew "nvm"          # Node Version Manager
@@ -98,6 +101,8 @@ brew "starship"
 brew "stow"         # Symlink management framework.
 brew "bash-completion"
 brew "tree"
+brew "jq"           # Json-query
+brew "yamllint"
 
 # Fonts
 cask "font-cascadia-code"
@@ -107,7 +112,6 @@ cask "font-cascadia-mono-pl"
 
 # Other
 brew "pandoc"       # Document format transformer
-cask "obsidian"     # Personal wiki
 cask "logseq"       # Personal wiki
 brew "cloc"         # Count lines of code
 cask "zotero"       # Reference/Bibliography management
