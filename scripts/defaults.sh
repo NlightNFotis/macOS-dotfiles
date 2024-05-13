@@ -16,3 +16,16 @@ defaults write com.apple.dock "expose-group-apps" -bool "true"
 defaults write com.apple.dock "tilesize" -int "36"
 # Dock position left.
 defaults write com.apple.dock "orientation" -string "left"
+
+# Set maximum batter charge percentage to 80% to maximise battery lifetime.
+if ! bclm --help > /dev/null
+then
+    echo "WARNING: bclm not installed. Install through homebrew"
+    echo "tap and brew install are available in Brewfile.personal"
+else
+    sudo bclm write 80
+    sudo bclm persist
+    # verify that the battery charge maximum has been set correctly.
+    echo "Maximum battery charge set to: "
+    bclm read
+fi
