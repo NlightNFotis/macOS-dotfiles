@@ -1,15 +1,15 @@
 # File with personal/entertainment dependencies,
 # not synced to work computers.
 
-tap "zackelia/formulae"     # for bclm
+tap "zackelia/formulae"     # for bclm
 
 ## Notetaking Software
-cask "notion"       # Personal wiki
+cask "notion"       # Personal wiki
 cask "obsidian"     # Personal wiki
 
 ## Games and Game Engines
 cask "steam"
-# TODO: Add GODOT
+# TODO: Add GODOT
 
-## Others
+## Others
 brew "bclm" # battery management software

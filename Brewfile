@@ -33,13 +33,13 @@ cask "temurin17"    # Alternative JVM by Adoptium (Eclipse) targetting Java17
 brew "maven"
 brew "google-java-format"
 
-# OCaml-specific
+# OCaml-specific
 brew "opam"
 
 # R-specific
 cask "rstudio"
 
-# Scala-specific
+# Scala-specific
 brew "sbt"
 
 # CodeQL
@@ -75,7 +75,7 @@ brew "automake"
 brew "bison"
 
 # Containers, Virtualisation & DevOps utilities
-brew "docker"       # Container engine
+brew "docker"       # Container engine
 brew "qemu"         # Virtualisation & emulation engine
 brew "ansible"      # Configuration management
 cask "vagrant"      # VM Provisioning
@@ -192,3 +192,4 @@ vscode "vscjava.vscode-java-pack"
 vscode "vscjava.vscode-java-test"
 vscode "vscjava.vscode-maven"
 vscode "wayou.vscode-todo-highlight"
+vscode "wengerk.highlight-bad-chars"
