@@ -2,10 +2,15 @@
 # not synced to work computers.
 
 tap "zackelia/formulae"     # for bclm
+tap "dart-lang/dart"        # for dart
 
 # Languages and Runtimes
 cask "r"            # Prefer the cask for R as it contains official binaries
 cask "racket"
+
+# Dart and flutter
+brew "dart"
+cask "flutter"
 
 # Python specific
 cask "anaconda"
