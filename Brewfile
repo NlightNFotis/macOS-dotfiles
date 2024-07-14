@@ -110,7 +110,6 @@ cask "font-monaspace"
 brew "pandoc"       # Document format transformer
 cask "logseq"       # Personal wiki
 brew "cloc"         # Count lines of code
-cask "zotero"       # Reference/Bibliography management
 
 # Visual Studio Code && Extensions
 cask "visual-studio-code"

@@ -24,6 +24,10 @@ cask "obsidian"     # Personal wiki
 cask "steam"
 # TODO: Add GODOT
 
+## Editors
+cask "sublime-text"
+cask "zed"
+
 ## Others
 brew "bclm" # battery management software
-cask "sublime-text"
+cask "zotero"       # Reference/Bibliography management
