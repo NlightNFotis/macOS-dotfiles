@@ -18,8 +18,6 @@ brew "typescript"
 brew "openjdk"
 brew "ocaml"
 cask "dotnet-sdk"   # Cask for latest dotnet SDK
-cask "racket"
-cask "r"            # Prefer the cask for R as it contains official binaries
 
 # Ruby-specific
 brew "chruby"
@@ -36,10 +34,7 @@ brew "google-java-format"
 # OCaml-specific
 brew "opam"
 
-# R-specific
-cask "rstudio"
-
-# Scala-specific
+# Scala-specific
 brew "sbt"
 
 # CodeQL

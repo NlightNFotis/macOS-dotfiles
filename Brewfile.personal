@@ -3,6 +3,16 @@
 
 tap "zackelia/formulae"     # for bclm
 
+# Languages and Runtimes
+cask "r"            # Prefer the cask for R as it contains official binaries
+cask "racket"
+
+# Python specific
+cask "anaconda"
+
+# R-specific
+cask "rstudio"
+
 ## Notetaking Software
 cask "notion"       # Personal wiki
 cask "obsidian"     # Personal wiki
@@ -13,3 +23,4 @@ cask "steam"
 
 ## Others
 brew "bclm" # battery management software
+cask "sublime-text"
