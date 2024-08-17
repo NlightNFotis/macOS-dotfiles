@@ -6,6 +6,7 @@ tap "zackelia/formulae"     # for bclm
 # Languages and Runtimes
 cask "r"            # Prefer the cask for R as it contains official binaries
 cask "racket"
+brew "elixir"
 
 # Dart and flutter
 cask "flutter"
