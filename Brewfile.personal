@@ -33,3 +33,4 @@ cask "zed"
 brew "bclm"                  # battery management software
 cask "zotero"                # Reference/Bibliography management
 cask "db-browser-for-sqlite" # Database browser for SQLite 
+brew "exercism"              # exercism.org CLI
