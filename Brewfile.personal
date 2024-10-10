@@ -23,7 +23,8 @@ cask "obsidian"     # Personal wiki
 
 ## Games and Game Engines
 cask "steam"
-# TODO: Add GODOT
+cask "godot"
+
 
 ## Editors
 cask "sublime-text"
