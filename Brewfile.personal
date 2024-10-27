@@ -7,6 +7,7 @@ tap "zackelia/formulae"     # for bclm
 cask "r"            # Prefer the cask for R as it contains official binaries
 cask "racket"
 brew "elixir"
+cask "smlnj"        # StandardML New Jersey
 
 # Dart and flutter
 cask "flutter"
@@ -25,6 +26,8 @@ cask "obsidian"     # Personal wiki
 cask "steam"
 cask "godot"
 
+## Typesetting software
+brew "typst"
 
 ## Editors
 cask "sublime-text"

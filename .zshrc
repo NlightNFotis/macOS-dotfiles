@@ -22,6 +22,9 @@ source /opt/homebrew/opt/chruby/share/chruby/auto.sh
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
+# Add SMLNJ to the PATH
+export PATH=/usr/local/smlnj/bin:"$PATH"
+
 # Add Homebrew-installed JDK to $PATH.
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
