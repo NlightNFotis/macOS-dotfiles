@@ -85,6 +85,7 @@ brew "mysql"
 # Networking tools
 brew "nmap"
 brew "telnet"
+cask "bruno"        # Request introspection 
 
 ## Rust utilities
 brew "hyperfine"
@@ -92,6 +93,7 @@ brew "just"
 brew "difftastic"
 
 # Terminal utilities
+cask "ghostty"      # Fancy terminal emulator
 brew "starship"
 brew "stow"         # Symlink management framework.
 brew "bash-completion"
