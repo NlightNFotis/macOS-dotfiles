@@ -25,6 +25,7 @@ cask "obsidian"     # Personal wiki
 ## Games and Game Engines
 cask "steam"
 cask "godot"
+cask "love2d"
 
 ## Typesetting software
 brew "typst"
