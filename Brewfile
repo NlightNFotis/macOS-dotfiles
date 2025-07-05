@@ -34,7 +34,7 @@ brew "google-java-format"
 # OCaml-specific
 brew "opam"
 
-# Scala-specific
+# Scala-specific
 brew "sbt"
 
 # CodeQL
@@ -85,7 +85,8 @@ brew "mysql"
 # Networking tools
 brew "nmap"
 brew "telnet"
-cask "bruno"        # Request introspection 
+cask "bruno"        # Request introspection
+brew "hurl"         # API testing tool, similar to Bruno
 
 ## Rust utilities
 brew "hyperfine"

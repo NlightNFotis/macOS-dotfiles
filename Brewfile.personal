@@ -19,6 +19,9 @@ cask "anaconda"
 # R-specific
 cask "rstudio"
 
+# Databases
+brew "postgresql"
+
 ## Notetaking Software
 cask "notion"       # Personal wiki
 cask "obsidian"     # Personal wiki
