@@ -44,6 +44,8 @@
 	difft = difftool
 	# `git dlog` to show `git log -p` with difftastic.
 	dlog = "!f() { GIT_EXTERNAL_DIFF=difft git log -p --ext-diff $@; }; f"
+	drop-last = reset --soft HEAD~1
+	drop-last-hard = reset --hard HEAD~1
 
 [includeIf "gitdir:~/Devel/GitHub/"]
     path = "~/macOS-dotfiles/work/.gitconfig.github"
